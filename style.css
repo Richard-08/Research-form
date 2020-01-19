@@ -1,0 +1,132 @@
+body {
+  background-color: skyblue;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  min-width: 320px;
+}
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+#form-out {
+  background-color: #e9f1f1;
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 75%;
+  padding: 10px;
+}
+
+.labels {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+  vertical-align: middle;
+  padding: 5px;
+  margin-top: 10px;
+}
+.rightTab {
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+  vertical-align: top;
+}
+
+p {
+  font-size: 1.1em;
+}
+.required {
+  color: red;
+}
+.input-field {
+  height: 30px;
+  width: 300px;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 2px;
+  border: none;
+  border-color: #c0c0c0;
+  outline: none;
+  font-size: 15px;
+}
+#dropdown {
+  height: 35px;
+  width: 250px;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 2px;
+  border: none;
+  border-color: #c0c0c0;
+  outline: none;
+  font-size: 15px;
+}
+.input-field:focus {
+  background: #d2d9dd;
+}
+.dropdown:focus {
+  background: #d2d9dd;
+}
+.userListen,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+.radio {
+  float: left;
+  position: relative;
+  display: block;
+  left: -35px;
+}
+.checkbox {
+  position: relative;
+  display: block;
+  left: -35px;
+  padding-bottom: 10px;
+}
+.column {
+  display: inline-block;
+  margin-right: 30px;
+}
+#comment {
+  height: 50px;
+}
+#submit {
+  height: 40px;
+  width: 150px;
+  font-size: 1em;
+  color: white;
+  background-color: #59ace0;
+  border: none;
+  border-radius: 2px;
+  margin: 10px;
+}
+#submit:hover {
+  background-color: #2c8ac5;
+}
+@media screen and (max-width: 833px) {
+  .input-field {
+    width: 80%;
+  }
+  #dropdown {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 520px){
+  .labels{
+    text-align: left;
+    width: 100%;
+  }
+  .rightTab{
+    float: left;
+    width: 80%;
+  }
+    .input-field {
+    width: 100%;
+  }
+  .dropdown {
+    width: 100%;
+  }
+  #form-out{
+    width: 90%;
+  }
+}
